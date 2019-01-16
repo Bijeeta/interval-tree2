@@ -19,7 +19,8 @@ class SortedList extends Array
     @property {String} compareKey
     ###
     constructor: (@compareKey) ->
-
+        super()
+        
 
 
     ###*
